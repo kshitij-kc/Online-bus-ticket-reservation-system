@@ -1,0 +1,17 @@
+  <div class="input_wrap">
+          <label for="title">Id</label>
+          <input type="number" id="title" name="id" class="idclass" value="<?php echo $_GET['id'];?>">
+        </div>
+
+<div class="input_wrap">
+          <label for="title">Cost</label>
+          <input type="number" id="title" name="cost" placeholder="Cost" class="idclass">
+        </div>
+gmail: 
+<div class="inputBox">
+                    <span>email :</span>
+                    <input type="email" value="<?php echo $user_data['email'];?>" name="email">
+                </div>
+
+admin: admin
+pass: acodeastro.com
